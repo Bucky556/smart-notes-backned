@@ -33,7 +33,7 @@ public class ProfileEntity {
     @Column(name = "updated_username")
     private String updatedUsername;
 
-    @OneToMany(mappedBy = "profile", fetch = FetchType.LAZY)  // bunday qilsak console da query kam ketadi (performance ga yaxshi)
+    @OneToMany(mappedBy = "profile", fetch = FetchType.LAZY)  // good for performance of code speed
     private List<ProfileRoleEntity> role;
 
     @Column(name = "photo_id")

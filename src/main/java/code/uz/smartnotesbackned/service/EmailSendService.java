@@ -11,7 +11,6 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 
-import javax.sound.sampled.ReverbType;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -59,6 +58,10 @@ public class EmailSendService {
                     resource = new ClassPathResource("email_update.html");
                     subject = "Update Your Email";
                 }
+                case RESEND_CODE -> {
+                    resource = new ClassPathResource("email_resend_code.html");
+                    subject = "Resend Your Code";
+                }
                 default -> throw new BadException("Invalid email type");
 
             }
@@ -74,7 +77,7 @@ public class EmailSendService {
             helper.setText(htmlBody, true);
 
             sendEmail(toEmail, name, htmlBody);
-            checkAndSaveToEmail(toEmail, code, emailType);
+            checkAndSaveToDB(toEmail, code, emailType);
         } catch (IOException e) {
             throw new RuntimeException("Failed to load email template");
         } catch (MessagingException e) {
@@ -82,7 +85,7 @@ public class EmailSendService {
         }
     }
 
-    public void checkAndSaveToEmail(String toEmail, String code, EmailType emailType) {
+    public void checkAndSaveToDB(String toEmail, String code, EmailType emailType) {
         emailHistoryService.create(toEmail, code, emailType);
 
         Long emailCount = emailHistoryService.getEmailCountWhileSending(toEmail);

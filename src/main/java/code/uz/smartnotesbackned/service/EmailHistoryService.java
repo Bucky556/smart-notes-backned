@@ -46,7 +46,7 @@ public class EmailHistoryService {
             emailHistoryRepository.updateAttemptCountByEmail(historyEntity.getEmail());  // + 1 attempt count for every failing
             throw new BadException("Wrong verification code");
         }
-        // check time
+        // check time after sending code
         LocalDateTime expDate = historyEntity.getSendTime().plusMinutes(2);
         if (LocalDateTime.now().isAfter(expDate)) {
             throw new BadException("Verification time expired");

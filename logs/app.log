@@ -291,3 +291,232 @@
 2025-11-25T09:48:08.310+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-11-25T09:48:08.321+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-11-25T09:48:08.323+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-25T10:14:58.790+09:00  INFO 3943 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Starting SmartNotesBackendApplication using Java 23.0.2 with PID 3943 (/Users/nodirjonokilov/Desktop/smart-notes-backned/target/classes started by nodirjonokilov in /Users/nodirjonokilov/Desktop/smart-notes-backned)
+2025-11-25T10:14:58.793+09:00  INFO 3943 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T10:14:59.233+09:00  INFO 3943 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25T10:14:59.254+09:00  INFO 3943 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 6 JPA repository interfaces.
+2025-11-25T10:14:59.467+09:00  INFO 3943 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-25T10:14:59.473+09:00  INFO 3943 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T10:14:59.474+09:00  INFO 3943 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-25T10:14:59.491+09:00  INFO 3943 --- [smart-notes-backned] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-25T10:14:59.491+09:00  INFO 3943 --- [smart-notes-backned] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 658 ms
+2025-11-25T10:14:59.546+09:00  INFO 3943 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-25T10:14:59.592+09:00  INFO 3943 --- [smart-notes-backned] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ddffa6c
+2025-11-25T10:14:59.593+09:00  INFO 3943 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-25T10:14:59.662+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.database                       : Set default schema name to smart_notes
+2025-11-25T10:14:59.878+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T10:14:59.931+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-11-25T10:14:59.932+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : UPDATE SUMMARY
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : Run:                          0
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : Previously run:               3
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : Filtered out:                 0
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : -------------------------------
+2025-11-25T10:14:59.943+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : Total change sets:            3
+2025-11-25T10:14:59.945+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.util                           : Update summary generated
+2025-11-25T10:14:59.948+09:00  INFO 3943 --- [smart-notes-backned] [main] liquibase.command                        : Command execution complete
+2025-11-25T10:15:01.504+09:00  INFO 3943 --- [smart-notes-backned] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25T10:15:01.531+09:00  INFO 3943 --- [smart-notes-backned] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-25T10:15:01.544+09:00  INFO 3943 --- [smart-notes-backned] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-25T10:15:01.645+09:00  INFO 3943 --- [smart-notes-backned] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-25T10:15:01.673+09:00  INFO 3943 --- [smart-notes-backned] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-25T10:15:02.021+09:00  INFO 3943 --- [smart-notes-backned] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-25T10:15:02.196+09:00  INFO 3943 --- [smart-notes-backned] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T10:15:02.308+09:00  INFO 3943 --- [smart-notes-backned] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-25T10:15:02.733+09:00  INFO 3943 --- [smart-notes-backned] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-25T10:15:02.867+09:00  WARN 3943 --- [smart-notes-backned] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T10:15:03.208+09:00  INFO 3943 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T10:15:03.213+09:00  INFO 3943 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Started SmartNotesBackendApplication in 4.78 seconds (process running for 5.207)
+2025-11-25T10:15:04.799+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T10:15:04.800+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T10:15:04.801+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-25T10:15:04.901+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:04.923+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:04.931+09:00  WARN 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-25T10:15:05.141+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:15.386+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:25.372+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:35.385+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:45.375+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:15:55.185+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:05.159+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:15.157+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:25.158+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:35.375+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:45.374+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:16:55.367+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:05.372+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:15.425+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:25.364+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:36.234+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:45.157+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:17:55.163+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:05.158+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:15.158+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:25.164+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:35.162+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:45.159+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:18:55.162+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:05.163+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:15.160+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:25.157+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:35.160+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:45.160+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:52.346+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:19:52.399+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T10:20:02.347+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:20:12.367+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:20:22.366+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:20:32.376+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:20:42.361+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:20:52.387+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:21:02.356+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:22:03.420+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:23:04.389+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:24:05.375+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:25:06.397+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:26:07.392+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:27:07.383+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:28:07.394+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:07.404+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:20.190+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:22.365+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:32.387+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:42.434+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:29:52.377+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:30:02.379+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:30:12.391+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:30:22.370+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:30:43.399+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:30:52.417+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:31:02.369+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:31:12.412+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:31:22.400+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:31:32.373+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:31:42.414+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:32:07.450+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:33:07.394+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:34:07.403+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:35:07.413+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:36:07.490+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:37:07.392+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:38:07.406+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:39:07.420+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:40:07.429+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:41:07.443+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:42:07.402+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:43:07.422+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:44:07.402+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:45:07.375+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:46:07.384+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:47:07.377+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:48:07.358+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:49:07.393+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:50:07.375+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:50:21.503+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:50:22.360+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:50:32.369+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T10:50:49.776+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.AuthController          : Password reset request for email: okilovnodir456@gmail.com
+2025-11-25T10:51:17.353+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.AuthController          : Registration attempt for email: test@gmail.com
+2025-11-25T10:55:16.414+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.AuthController          : Registration attempt for email: nodiroqilov86@gmail.com
+2025-11-25T10:55:16.659+09:00  WARN 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2025-11-25T10:55:16.659+09:00 ERROR 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: update or delete on table "profile" violates foreign key constraint "fktp7tg2931w97l0s219kn9ph5j" on table "note"
+  Detail: Key (id)=(be28ed9d-ab29-4ae2-ab20-6f7223678964) is still referenced from table "note".
+2025-11-25T10:55:21.791+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.AuthController          : Registration attempt for email: nodiroqilov86@gmail.com
+2025-11-25T10:55:21.805+09:00  WARN 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2025-11-25T10:55:21.805+09:00 ERROR 3943 --- [smart-notes-backned] [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: update or delete on table "profile" violates foreign key constraint "fktp7tg2931w97l0s219kn9ph5j" on table "note"
+  Detail: Key (id)=(be28ed9d-ab29-4ae2-ab20-6f7223678964) is still referenced from table "note".
+2025-11-25T10:56:15.275+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.AuthController          : Login attempt for user: nodiroqilov86@gmail.com
+2025-11-25T10:59:51.662+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.AuthController          : Registration attempt for email: nodiroqilov86@gmail.com
+2025-11-25T11:00:13.547+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.AuthController          : Resend verification code request for email: nodiroqilov86@gmail.com
+2025-11-25T11:00:18.298+09:00  INFO 3943 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.AuthController          : Resend verification code request for email: nodiroqilov86@gmail.com
+2025-11-25T11:00:25.280+09:00  INFO 3943 --- [smart-notes-backned] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T11:00:25.291+09:00  INFO 3943 --- [smart-notes-backned] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-25T11:00:25.348+09:00  INFO 3943 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T11:00:25.377+09:00  INFO 3943 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T11:00:25.389+09:00  INFO 3943 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-25T11:00:28.190+09:00  INFO 4891 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Starting SmartNotesBackendApplication using Java 23.0.2 with PID 4891 (/Users/nodirjonokilov/Desktop/smart-notes-backned/target/classes started by nodirjonokilov in /Users/nodirjonokilov/Desktop/smart-notes-backned)
+2025-11-25T11:00:28.193+09:00  INFO 4891 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T11:00:28.568+09:00  INFO 4891 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25T11:00:28.592+09:00  INFO 4891 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 6 JPA repository interfaces.
+2025-11-25T11:00:28.810+09:00  INFO 4891 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-25T11:00:28.817+09:00  INFO 4891 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T11:00:28.818+09:00  INFO 4891 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-25T11:00:28.835+09:00  INFO 4891 --- [smart-notes-backned] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-25T11:00:28.835+09:00  INFO 4891 --- [smart-notes-backned] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2025-11-25T11:00:28.892+09:00  INFO 4891 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-25T11:00:28.936+09:00  INFO 4891 --- [smart-notes-backned] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cc1bf20
+2025-11-25T11:00:28.936+09:00  INFO 4891 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-25T11:00:29.007+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.database                       : Set default schema name to smart_notes
+2025-11-25T11:00:29.224+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T11:00:29.260+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-11-25T11:00:29.261+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : UPDATE SUMMARY
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : Run:                          0
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : Previously run:               3
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : Filtered out:                 0
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : -------------------------------
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : Total change sets:            3
+2025-11-25T11:00:29.264+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.util                           : Update summary generated
+2025-11-25T11:00:29.265+09:00  INFO 4891 --- [smart-notes-backned] [main] liquibase.command                        : Command execution complete
+2025-11-25T11:00:30.509+09:00  INFO 4891 --- [smart-notes-backned] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25T11:00:30.544+09:00  INFO 4891 --- [smart-notes-backned] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-25T11:00:30.557+09:00  INFO 4891 --- [smart-notes-backned] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-25T11:00:30.653+09:00  INFO 4891 --- [smart-notes-backned] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-25T11:00:30.682+09:00  INFO 4891 --- [smart-notes-backned] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-25T11:00:31.031+09:00  INFO 4891 --- [smart-notes-backned] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-25T11:00:31.191+09:00  INFO 4891 --- [smart-notes-backned] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T11:00:31.290+09:00  INFO 4891 --- [smart-notes-backned] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-25T11:00:31.763+09:00  INFO 4891 --- [smart-notes-backned] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-25T11:00:31.898+09:00  WARN 4891 --- [smart-notes-backned] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T11:00:32.463+09:00  INFO 4891 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T11:00:32.472+09:00  INFO 4891 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Started SmartNotesBackendApplication in 4.477 seconds (process running for 4.959)
+2025-11-25T11:00:38.488+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T11:00:38.488+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T11:00:38.491+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-11-25T11:00:38.577+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.AuthController          : Registration attempt for email: nodiroqilov86@gmail.com
+2025-11-25T11:00:47.784+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.AuthController          : Resend verification code request for email: nodiroqilov86@gmail.com
+2025-11-25T11:01:28.416+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.AuthController          : Email verification attempt for email: nodiroqilov86@gmail.com
+2025-11-25T11:01:34.341+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.AuthController          : Email verification attempt for email: nodiroqilov86@gmail.com
+2025-11-25T11:01:38.993+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.AuthController          : Login attempt for user: nodiroqilov86@gmail.com
+2025-11-25T11:01:39.307+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:01:39.308+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T11:01:39.361+09:00  WARN 4891 --- [smart-notes-backned] [http-nio-8080-exec-6] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-25T11:01:41.335+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:01:42.303+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:01:52.319+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:02.324+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:05.141+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Note created successfully: title='RESEND CODE'
+2025-11-25T11:02:06.237+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:06.238+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T11:02:07.924+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Favorite status changed for note id=64
+2025-11-25T11:02:09.804+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:13.459+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:13.461+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T11:02:15.460+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:19.073+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:19.901+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:19.903+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T11:02:30.365+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:40.344+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:02:50.364+09:00  INFO 4891 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
