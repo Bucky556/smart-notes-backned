@@ -31,7 +31,7 @@ public class NoteController {
 
     @Operation(
             summary = "Create a new note",
-            description = "Creates a new note with title, content, favorite and reminder-date. "
+            description = "Creates a new note with title, content and reminder-date. "
                     + "Returns the created note details along with a success message."
     )
     @PostMapping("/create")
