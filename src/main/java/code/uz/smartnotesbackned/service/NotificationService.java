@@ -27,7 +27,7 @@ public class NotificationService {
     private final EmailSendService emailSendService;
     private final NotificationRepository notificationRepository;
 
-    @Scheduled(fixedDelay = 60000) // runs every 1 minute
+    @Scheduled(fixedDelay = 20000) // runs every 20 seconds
     @Transactional
     public void sendNotification() {
         LocalDateTime now = LocalDateTime.now();
