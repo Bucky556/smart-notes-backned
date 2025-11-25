@@ -681,3 +681,14 @@
 2025-11-25T11:36:29.422+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
 2025-11-25T11:36:39.480+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
 2025-11-25T11:36:49.457+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:36:59.464+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:37:09.482+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'nodiroqilov86@gmail.com'.
+2025-11-25T11:57:48.483+09:00  WARN 5887 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s241ms).
+2025-11-25T12:00:05.483+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T12:00:05.711+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T12:00:05.712+09:00  INFO 5887 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T12:14:17.254+09:00  INFO 5887 --- [smart-notes-backned] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T12:14:17.262+09:00  INFO 5887 --- [smart-notes-backned] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-25T12:14:17.295+09:00  INFO 5887 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T12:14:17.313+09:00  INFO 5887 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T12:14:17.316+09:00  INFO 5887 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

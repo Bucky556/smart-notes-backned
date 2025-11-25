@@ -92,10 +92,10 @@ public class NoteService {
         }
         noteEntity.setTitle(noteCreateDTO.getTitle());
         noteEntity.setContent(noteCreateDTO.getContent());
-        if (noteCreateDTO.getFavorite() != null) {     // buni bermasligi ha mumkin
+        if (noteCreateDTO.getFavorite() != null) {     // may not be given
             noteEntity.setFavorite(noteCreateDTO.getFavorite());
         }
-        if (noteCreateDTO.getReminderDate() != null) { // buni bermasligi ha mumkin
+        if (noteCreateDTO.getReminderDate() != null) { // may not be given
             noteEntity.setReminderDate(noteCreateDTO.getReminderDate());
         }
         noteRepository.save(noteEntity);
