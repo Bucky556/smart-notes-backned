@@ -84,7 +84,7 @@ public class ProfileController {
         return ResponseEntity.ok(profileService.updatePhoto(dto));
     }
 
-    /// ================= ADMIN ENDPOINTS ================= ///
+    /// ================= ADMIN ENDPOINTS =================
 
     @Operation(
             summary = "Change user status (Admin only)",

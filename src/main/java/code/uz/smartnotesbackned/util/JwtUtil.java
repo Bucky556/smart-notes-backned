@@ -2,7 +2,6 @@ package code.uz.smartnotesbackned.util;
 
 import code.uz.smartnotesbackned.dto.JwtDTO;
 import code.uz.smartnotesbackned.enums.Role;
-import code.uz.smartnotesbackned.exception.BadException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
@@ -35,34 +34,9 @@ public class JwtUtil {
                 .compact();
     }
 
-    public static String encodeID(UUID id) {
-        return Jwts.builder()
-                .subject(String.valueOf(id))
-                .issuedAt(new Date(System.currentTimeMillis()))
-                .expiration(new Date(System.currentTimeMillis() + 60 * 1000))
-                .signWith(getSignInKey())
-                .compact();
-    }
-
     private static SecretKey getSignInKey() {
         byte[] bytes = Decoders.BASE64.decode(secretKey);
         return Keys.hmacShaKeyFor(bytes);
-    }
-
-    public static UUID decodeID(String token) {
-        try {
-            Claims claims = Jwts
-                    .parser()
-                    .verifyWith(getSignInKey())
-                    .build()
-                    .parseSignedClaims(token)
-                    .getPayload();
-
-            return UUID.fromString(claims.getSubject());
-        } catch (Exception e) {
-            throw new BadException("Link already expired");
-        }
-
     }
 
     public static JwtDTO decode(String token) {

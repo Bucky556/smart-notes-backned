@@ -56,7 +56,6 @@ public class ProfileService {
         }
 
         profileRepository.updatePasswordById(profileId, passwordEncoder.encode(dto.getNewPassword()));
-
     }
 
     public void requestEmailUpdate(@Valid ProfileUsernameDTO dto) {
