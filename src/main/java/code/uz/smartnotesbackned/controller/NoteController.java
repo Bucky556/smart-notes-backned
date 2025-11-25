@@ -58,7 +58,7 @@ public class NoteController {
             summary = "Get note by ID",
             description = "Returns note of user by ID"
     )
-    @GetMapping("/by/id/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<NoteDTO> getById(@PathVariable Integer id) {
         log.debug("Fetching note by ID: {}", id);
         return ResponseEntity.ok(noteService.getById(id));

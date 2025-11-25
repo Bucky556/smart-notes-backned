@@ -39,10 +39,10 @@ public class NoteService {
         noteEntity.setTitle(dto.getTitle());
         noteEntity.setContent(dto.getContent());
         noteEntity.setCreatedDate(LocalDateTime.now());
-        if (dto.getReminderDate() != null) {  // buni bermasligi ha mumkin
+        if (dto.getReminderDate() != null) {  // may not be given
             noteEntity.setReminderDate(dto.getReminderDate());
         }
-        if (dto.getFavorite() != null) {      // buni bermasligi ha mumkin
+        if (dto.getFavorite() != null) {      // may not be given
             noteEntity.setFavorite(dto.getFavorite());
         }
         noteEntity.setProfileId(visibleProfile.get().getId());
@@ -57,7 +57,7 @@ public class NoteService {
         UUID profileId = SecurityUtil.getID();
         Page<NoteEntity> visibleNotes = noteRepository.findAllByProfileIdAndVisibleTrueOrderByCreatedDateDesc(profileId, pageRequest);
         if (visibleNotes.isEmpty()) {
-            return new PageImpl<>(Collections.emptyList()); // bo'sh list qaytaradi
+            return new PageImpl<>(Collections.emptyList()); // returns empty list
         }
 
         List<NoteDTO> noteDTOList = visibleNotes.stream()
@@ -163,7 +163,7 @@ public class NoteService {
         NoteDTO dto = new NoteDTO();
         dto.setId(noteEntity.getId());
         dto.setTitle(noteEntity.getTitle());
-        // content berilmaydi bunda
+        // content isn't given
         dto.setReminderDate(noteEntity.getReminderDate());
         dto.setCreatedDate(noteEntity.getCreatedDate());
         dto.setFavorite(noteEntity.getFavorite());
