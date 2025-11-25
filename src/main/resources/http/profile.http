@@ -1,0 +1,67 @@
+### Update Name
+PUT localhost:8080/api/v1/profile/update/name
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbmpvbkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfQURNSU4iLCJpZCI6IjI1MGJhMTM1LWQ2NmYtNGI3Ni1iZTI4LTE1MTUyOWEzZTk4ZCIsImlhdCI6MTc2MTYxNjY4NywiZXhwIjoxNzYxNzAzMDg3fQ.RNLzhSsstMAu1_ECvzYDgpxf0h7B_15nBDrd80HvsZI
+
+{
+  "name": "Adminjon"
+}
+
+### Update Password
+PUT localhost:8080/api/v1/profile/update/password
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbmpvbkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfQURNSU4iLCJpZCI6IjI1MGJhMTM1LWQ2NmYtNGI3Ni1iZTI4LTE1MTUyOWEzZTk4ZCIsImlhdCI6MTc2MTYxNjY4NywiZXhwIjoxNzYxNzAzMDg3fQ.RNLzhSsstMAu1_ECvzYDgpxf0h7B_15nBDrd80HvsZI
+
+{
+  "currentPassword": "123",
+  "newPassword": "12345"
+}
+
+### Send Code for Update username
+PUT localhost:8080/api/v1/profile/update/username
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbmpvbkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfQURNSU4iLCJpZCI6IjI1MGJhMTM1LWQ2NmYtNGI3Ni1iZTI4LTE1MTUyOWEzZTk4ZCIsImlhdCI6MTc2MTYxNjY4NywiZXhwIjoxNzYxNzAzMDg3fQ.RNLzhSsstMAu1_ECvzYDgpxf0h7B_15nBDrd80HvsZI
+
+{
+  "username": "nodiroqilov86@gmail.com"
+}
+
+### Confirm Code to update Email
+PUT localhost:8080/api/v1/profile/update/username/confirm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbmpvbkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfQURNSU4iLCJpZCI6IjI1MGJhMTM1LWQ2NmYtNGI3Ni1iZTI4LTE1MTUyOWEzZTk4ZCIsImlhdCI6MTc2MTYxNjY4NywiZXhwIjoxNzYxNzAzMDg3fQ.RNLzhSsstMAu1_ECvzYDgpxf0h7B_15nBDrd80HvsZI
+
+{
+  "code": "8649"
+}
+
+### Update Profile photo
+PUT localhost:8080/api/v1/profile/update/photo
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNjUzMTg2LCJleHAiOjE3NjE3Mzk1ODZ9.2otFO0fhG-i6bdYFhV5dGSg9O2fr7AeanNL_nY9h_LA
+
+{
+  "photoId": "a8219acf-659b-4a49-b1c3-0872d3dec6a8.png"
+}
+
+### Change Status (ACTIVE, BLOCK) by Admin
+PUT localhost:8080/api/v1/profile/admin/change/status/0c800e6d-1491-4a43-9c08-32acd4af5547
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub2Rpcm9xaWxvdjg2QGdtYWlsLmNvbSIsInJvbGVzIjoiUk9MRV9BRE1JTiIsImlkIjoiMjUwYmExMzUtZDY2Zi00Yjc2LWJlMjgtMTUxNTI5YTNlOThkIiwiaWF0IjoxNzYxNjU0OTQ0LCJleHAiOjE3NjE3NDEzNDR9.d6iezA6oe35nE30RVH0DWbC5xC5DobnNH_qnqbXGHs8
+
+{
+  "status": "IN_REGISTRATION"
+}
+
+### Delete Profile by Admin
+DELETE localhost:8080/api/v1/profile/admin/delete/0c800e6d-1491-4a43-9c08-32acd4af5547
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub2Rpcm9xaWxvdjg2QGdtYWlsLmNvbSIsInJvbGVzIjoiUk9MRV9BRE1JTiIsImlkIjoiMjUwYmExMzUtZDY2Zi00Yjc2LWJlMjgtMTUxNTI5YTNlOThkIiwiaWF0IjoxNzYxNjU0OTQ0LCJleHAiOjE3NjE3NDEzNDR9.d6iezA6oe35nE30RVH0DWbC5xC5DobnNH_qnqbXGHs8
+
+### Filter Profiles by Admin
+POST localhost:8080/api/v1/profile/admin/filter
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub2Rpcm9xaWxvdjg2QGdtYWlsLmNvbSIsInJvbGVzIjoiUk9MRV9BRE1JTiIsImlkIjoiMjUwYmExMzUtZDY2Zi00Yjc2LWJlMjgtMTUxNTI5YTNlOThkIiwiaWF0IjoxNzYxNzMyNjY0LCJleHAiOjE3NjE4MTkwNjR9.uwDW4PymrO211hNKnXZRpeZWs5IyabSg2ttosbWqq9M
+
+{
+  "query": "admin"
+}

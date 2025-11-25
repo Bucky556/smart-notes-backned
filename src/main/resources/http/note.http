@@ -1,0 +1,55 @@
+### Create Note
+POST localhost:8080/note/api/v1/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYzNTQwMjc4LCJleHAiOjE3NjM2MjY2Nzh9.HWRYBVc_yj_7xg2DLh2HZSGwo6S0Wtohs23en4ljZJ8
+
+{
+  "title": "Story",
+  "content": "Simple but deep story about me",
+  "reminderDate": "2025-11-19T19:22:00"
+}
+
+### Get Notes
+GET localhost:8080/note/api/v1/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+### Get note by ID
+GET localhost:8080/note/api/v1/by/id/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+### Update Note By ID
+PUT localhost:8080/note/api/v1/update/4
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+{
+  "title": "CU",
+  "content": "Hafta kunlarda yana ish kunlar qushish kerak kuproq ishlash uchun",
+  "favorite": true
+}
+
+### Delete Note By ID
+DELETE localhost:8080/note/api/v1/delete/27
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+### Get Favourite Notes
+GET localhost:8080/note/api/v1/favourites
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+### Change Favorite Note
+PUT localhost:8080/note/api/v1/update/favorite/18
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+Content-Type: application/json
+
+{
+  "favorite": false
+}
+
+### Filter Notes
+POST localhost:8080/note/api/v1/filter
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
+
+{
+  "query": ""
+}

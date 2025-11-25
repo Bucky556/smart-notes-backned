@@ -1,0 +1,293 @@
+2025-11-25T00:28:42.967+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m39s15ms).
+2025-11-25T00:46:10.299+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T01:13:02.259+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m19s293ms).
+2025-11-25T02:15:14.490+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m12s231ms).
+2025-11-25T02:49:06.297+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T03:33:43.101+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m28s611ms).
+2025-11-25T04:49:00.292+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m17s191ms).
+2025-11-25T05:01:28.553+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T05:49:55.261+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h54s968ms).
+2025-11-25T07:03:29.022+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m33s761ms).
+2025-11-25T07:19:52.754+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T07:52:05.543+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m36s522ms).
+2025-11-25T08:27:12.246+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m6s703ms).
+2025-11-25T08:28:48.040+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T08:43:12.195+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m59s949ms).
+2025-11-25T08:45:21.756+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s560ms).
+2025-11-25T08:45:33.773+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T08:48:07.432+09:00  INFO 99645 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T08:48:17.092+09:00  INFO 99645 --- [smart-notes-backned] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T08:48:17.113+09:00  INFO 99645 --- [smart-notes-backned] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-25T08:48:17.179+09:00  WARN 99645 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s424ms).
+2025-11-25T08:48:17.189+09:00  INFO 99645 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T08:48:17.229+09:00  INFO 99645 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T08:48:17.238+09:00  INFO 99645 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-25T09:12:25.168+09:00  INFO 1680 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Starting SmartNotesBackendApplication using Java 23.0.2 with PID 1680 (/Users/nodirjonokilov/Desktop/smart-notes-backned/target/classes started by nodirjonokilov in /Users/nodirjonokilov/Desktop/smart-notes-backned)
+2025-11-25T09:12:25.170+09:00  INFO 1680 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-25T09:12:25.526+09:00  INFO 1680 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-25T09:12:25.562+09:00  INFO 1680 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+2025-11-25T09:12:25.775+09:00  INFO 1680 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-25T09:12:25.780+09:00  INFO 1680 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-25T09:12:25.780+09:00  INFO 1680 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-25T09:12:25.795+09:00  INFO 1680 --- [smart-notes-backned] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-25T09:12:25.796+09:00  INFO 1680 --- [smart-notes-backned] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2025-11-25T09:12:25.864+09:00  INFO 1680 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-25T09:12:25.906+09:00  INFO 1680 --- [smart-notes-backned] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6bb4cc0e
+2025-11-25T09:12:25.906+09:00  INFO 1680 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-25T09:12:26.160+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.database                       : Set default schema name to smart_notes
+2025-11-25T09:12:26.377+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T09:12:26.410+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-11-25T09:12:26.410+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-25T09:12:26.413+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : UPDATE SUMMARY
+2025-11-25T09:12:26.413+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : Run:                          0
+2025-11-25T09:12:26.413+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : Previously run:               3
+2025-11-25T09:12:26.413+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : Filtered out:                 0
+2025-11-25T09:12:26.414+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : -------------------------------
+2025-11-25T09:12:26.414+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : Total change sets:            3
+2025-11-25T09:12:26.414+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.util                           : Update summary generated
+2025-11-25T09:12:26.414+09:00  INFO 1680 --- [smart-notes-backned] [main] liquibase.command                        : Command execution complete
+2025-11-25T09:12:27.682+09:00  INFO 1680 --- [smart-notes-backned] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-25T09:12:27.711+09:00  INFO 1680 --- [smart-notes-backned] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-25T09:12:27.729+09:00  INFO 1680 --- [smart-notes-backned] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-25T09:12:27.842+09:00  INFO 1680 --- [smart-notes-backned] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-25T09:12:27.869+09:00  INFO 1680 --- [smart-notes-backned] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-25T09:12:28.219+09:00  INFO 1680 --- [smart-notes-backned] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-25T09:12:28.393+09:00  INFO 1680 --- [smart-notes-backned] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T09:12:28.518+09:00  INFO 1680 --- [smart-notes-backned] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-25T09:12:28.913+09:00  INFO 1680 --- [smart-notes-backned] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-25T09:12:29.050+09:00  WARN 1680 --- [smart-notes-backned] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-25T09:12:29.357+09:00  INFO 1680 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-25T09:12:29.362+09:00  INFO 1680 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Started SmartNotesBackendApplication in 4.381 seconds (process running for 4.776)
+2025-11-25T09:12:59.228+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-25T09:12:59.230+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-25T09:12:59.239+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-11-25T09:12:59.395+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:13:59.186+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:14:59.242+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:16:23.182+09:00  WARN 1680 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s78ms).
+2025-11-25T09:16:26.344+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:19:02.527+09:00  WARN 1680 --- [smart-notes-backned] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s346ms).
+2025-11-25T09:19:35.708+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:20:07.080+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:21:17.891+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T09:21:22.407+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T09:21:22.586+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:21:22.587+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:21:22.656+09:00  WARN 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-25T09:22:21.518+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NoteController          : Note updated successfully: title='Clear code'
+2025-11-25T09:22:31.415+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:22:31.416+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:22:34.504+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:22:48.007+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:22:48.010+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:22:53.360+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='she', page=1, size=9
+2025-11-25T09:22:55.825+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Note deleted successfully: id=39
+2025-11-25T09:22:55.854+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NoteController          : Filtering notes by query='she', page=1, size=9
+2025-11-25T09:22:58.016+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:22:58.082+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:00.562+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:01.689+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:11.712+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:21.707+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:28.664+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Note created successfully: title='Library study'
+2025-11-25T09:23:29.772+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:29.773+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:23:40.672+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:50.653+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:23:59.791+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:24:09.785+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:24:19.787+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:24:29.131+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NoteController          : Note updated successfully: title='Clear code'
+2025-11-25T09:24:34.046+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:24:34.047+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:24:44.053+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:24:54.057+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:04.057+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:14.057+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:24.058+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:34.057+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:36.924+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:42.287+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:43.256+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:43.261+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:25:43.880+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:46.286+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Notification with ID=aa1a321e-a1e4-488f-9b72-9e408119d17f successfully retrieved by 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:59.795+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:25:59.796+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:26:01.716+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:26:46.935+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:26:46.936+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:26:47.838+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:00.844+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:01.415+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:02.143+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:02.144+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:27:02.832+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:12.836+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:23.658+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:33.646+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:43.016+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:49.263+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:27:49.265+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:27:52.685+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NoteController          : Filtering notes by query='', page=2, size=9
+2025-11-25T09:27:55.988+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NoteController          : Filtering notes by query='', page=3, size=9
+2025-11-25T09:27:58.290+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=4, size=9
+2025-11-25T09:27:59.250+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:06.279+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:16.643+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:26.647+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:36.641+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:46.640+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:28:56.647+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:06.638+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:16.649+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:18.078+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:18.079+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:29:19.855+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=2, size=9
+2025-11-25T09:29:22.205+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='', page=3, size=9
+2025-11-25T09:29:24.106+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NoteController          : Filtering notes by query='', page=4, size=9
+2025-11-25T09:29:25.700+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=3, size=9
+2025-11-25T09:29:28.062+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:30.858+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Filtering notes by query='', page=4, size=9
+2025-11-25T09:29:38.072+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:29:41.454+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=3, size=9
+2025-11-25T09:29:48.068+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:32:22.094+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.ProfileController       : Profile photo update attempt with imageId: 5af8f3ee-9af1-4a37-8e58-e9880b26436b.png
+2025-11-25T09:32:26.945+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:32:26.946+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:32:30.443+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:32:30.445+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:32:35.777+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:32:35.783+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:32:41.334+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:32:41.335+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:32:51.517+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:01.716+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:11.676+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:21.641+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:31.634+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:41.668+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:33:51.691+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:02.699+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:11.351+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:21.672+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:31.667+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:41.650+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:34:51.638+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:01.660+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:11.670+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:35.673+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:56.486+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:57.781+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:35:57.782+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:36:01.544+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:36:01.546+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:36:11.679+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:36:21.665+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:36:31.664+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:36:41.633+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:36:51.645+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:01.636+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:11.658+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:15.394+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:15.399+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:37:18.758+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:37:18.759+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:23.426+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:23.427+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:37:33.666+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:43.639+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:37:53.447+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:02.609+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.ProfileController       : Password update attempt for current user
+2025-11-25T09:38:20.329+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.ProfileController       : Password update attempt for current user
+2025-11-25T09:38:29.911+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.ProfileController       : Password update attempt for current user
+2025-11-25T09:38:44.347+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.ProfileController       : Password update attempt for current user
+2025-11-25T09:38:50.417+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:50.418+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:38:52.181+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:53.183+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:53.685+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:54.218+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:38:54.219+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:39:06.876+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.AuthController          : Login attempt for user: adminjon@gmail.com
+2025-11-25T09:39:07.039+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:07.039+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:39:17.693+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:27.071+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:37.054+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:47.058+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:47.484+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:39:47.555+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:39:57.486+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:01.059+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:04.959+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:07.484+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:09.239+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.ProfileController       : Admin filtering profiles with query: xushnid
+2025-11-25T09:40:12.629+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 86
+2025-11-25T09:40:16.695+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.ProfileController       : Admin filtering profiles with query: fxrdn
+2025-11-25T09:40:17.482+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:22.569+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.ProfileController       : Admin filtering profiles with query: fxridi
+2025-11-25T09:40:26.170+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.ProfileController       : Admin filtering profiles with query: fax
+2025-11-25T09:40:27.486+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:34.605+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:34.606+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:38.533+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.ProfileController       : Admin changing status for profileId=f9225d05-8276-4d68-a427-6a6830b22fb8 to BLOCKED
+2025-11-25T09:40:38.549+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:40.665+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:43.157+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.ProfileController       : Admin changing status for profileId=b663e2a3-41a3-4335-926e-8e4332c8cb07 to BLOCKED
+2025-11-25T09:40:43.166+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:44.568+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.ProfileController       : Admin filtering profiles with query: 
+2025-11-25T09:40:44.600+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:40:54.611+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'adminjon@gmail.com'.
+2025-11-25T09:41:02.136+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T09:41:02.274+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:41:02.276+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:41:11.272+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.AuthController          : Password reset request for email: okilovnodir456@gmail.com
+2025-11-25T09:41:24.888+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.AuthController          : Password reset confirmation for email: okilovnodir456@gmail.com
+2025-11-25T09:41:31.018+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T09:41:31.183+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:41:31.184+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:41:38.174+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.ProfileController       : Password update attempt for current user
+2025-11-25T09:41:41.409+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:41:41.409+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:41:46.651+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.AuthController          : Login attempt for user: okilovnodir456@gmail.com
+2025-11-25T09:41:46.808+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NoteController          : Filtering notes by query='', page=1, size=9
+2025-11-25T09:41:46.808+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:41:56.818+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:06.822+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:16.823+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:26.825+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:36.818+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:47.652+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:42:57.640+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:43:07.658+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:43:17.644+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:43:27.649+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:44:28.668+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:44:47.249+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:44:57.646+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:07.663+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-5] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:17.646+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-8] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:27.645+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-7] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:37.667+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:47.684+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-1] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:45:57.652+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-10] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:46:07.653+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:46:17.644+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-9] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:46:27.648+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-6] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:47:28.665+09:00  INFO 1680 --- [smart-notes-backned] [http-nio-8080-exec-4] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-25T09:48:08.268+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25T09:48:08.272+09:00  INFO 1680 --- [smart-notes-backned] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-25T09:48:08.310+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T09:48:08.321+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T09:48:08.323+09:00  INFO 1680 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

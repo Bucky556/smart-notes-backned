@@ -1,0 +1,54 @@
+### Send Registration Code
+POST localhost:8080/auth/api/v1/register
+Content-Type: application/json
+
+{
+  "name": "Akbar",
+  "email": "aubaydullayev@gmail.com",
+  "password": "123",
+  "confirmPassword": "123"
+}
+
+### Verification Registration Code
+POST localhost:8080/auth/api/v1/register/email/verification
+Content-Type: application/json
+
+{
+  "email": "nodiroqilov86@gmail.com",
+  "code": "8293"
+}
+
+### Resend Verification Code
+POST localhost:8080/auth/api/v1/register/email/verification/resend
+Content-Type: application/json
+
+{
+  "email": "nodiroqilov86@gmail.com"
+}
+
+### Login
+POST localhost:8080/auth/api/v1/login
+Content-Type: application/json
+
+{
+  "email": "okilovnodir456@gmail.com",
+  "password": "123"
+}
+
+### Reset password
+POST localhost:8080/auth/api/v1/reset/password
+Content-Type: application/json
+
+{
+  "email": "adminjon@gmail.com"
+}
+
+### Reset password confirm
+POST localhost:8080/auth/api/v1/reset/password/confirm
+Content-Type: application/json
+
+{
+  "email": "okilovnodir456@gmail.com",
+  "code": "3986",
+  "newPassword": "123"
+}
