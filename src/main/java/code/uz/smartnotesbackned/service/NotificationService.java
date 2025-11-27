@@ -68,9 +68,7 @@ public class NotificationService {
         UUID profileId = SecurityUtil.getID();
 
         Optional<NotificationEntity> byIdToProfile = notificationRepository.findByIdAndProfileIdAndVisibleTrue(id, profileId);
-        if (byIdToProfile.isEmpty()) {
-            throw new NotFoundException("Notification not found");
-        }
+        if (byIdToProfile.isEmpty()) throw new NotFoundException("Notification not found");
 
         if (byIdToProfile.get().getNotificationType() == NotificationType.UNREAD) {
             notificationRepository.updateStatusById(id, NotificationType.READ, profileId);
