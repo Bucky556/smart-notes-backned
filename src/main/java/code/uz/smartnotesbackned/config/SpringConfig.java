@@ -20,7 +20,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class SpringConfig {
     public static final String[] WHITE_LIST = {
-            "/auth/api/v1/**",
+            "/api/v1/auth/**",
             "/api/v1/attach/open/**",
             "/swagger-ui/**",
             "/v3/api-docs/**",

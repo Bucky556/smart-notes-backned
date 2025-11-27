@@ -127,3 +127,99 @@
 2025-11-27T17:32:38.146+09:00  INFO 13761 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-11-27T17:32:38.151+09:00  INFO 13761 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-11-27T17:32:38.152+09:00  INFO 13761 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T18:00:31.852+09:00  INFO 14485 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Starting SmartNotesBackendApplication using Java 23.0.2 with PID 14485 (/Users/nodirjonokilov/Desktop/smart-notes-backned/target/classes started by nodirjonokilov in /Users/nodirjonokilov/Desktop/smart-notes-backned)
+2025-11-27T18:00:31.857+09:00  INFO 14485 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T18:00:32.247+09:00  INFO 14485 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T18:00:32.269+09:00  INFO 14485 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 6 JPA repository interfaces.
+2025-11-27T18:00:32.486+09:00  INFO 14485 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-27T18:00:32.493+09:00  INFO 14485 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T18:00:32.493+09:00  INFO 14485 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-27T18:00:32.511+09:00  INFO 14485 --- [smart-notes-backned] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T18:00:32.511+09:00  INFO 14485 --- [smart-notes-backned] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 630 ms
+2025-11-27T18:00:32.567+09:00  INFO 14485 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T18:00:32.618+09:00  INFO 14485 --- [smart-notes-backned] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@759a678a
+2025-11-27T18:00:32.618+09:00  INFO 14485 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T18:00:32.695+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.database                       : Set default schema name to smart_notes
+2025-11-27T18:00:32.906+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-27T18:00:32.940+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-11-27T18:00:32.941+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : UPDATE SUMMARY
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : Run:                          0
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : Previously run:               3
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : Filtered out:                 0
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : -------------------------------
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : Total change sets:            3
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.util                           : Update summary generated
+2025-11-27T18:00:32.944+09:00  INFO 14485 --- [smart-notes-backned] [main] liquibase.command                        : Command execution complete
+2025-11-27T18:00:34.017+09:00  INFO 14485 --- [smart-notes-backned] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T18:00:34.043+09:00  INFO 14485 --- [smart-notes-backned] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-27T18:00:34.057+09:00  INFO 14485 --- [smart-notes-backned] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T18:00:34.160+09:00  INFO 14485 --- [smart-notes-backned] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T18:00:34.190+09:00  INFO 14485 --- [smart-notes-backned] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27T18:00:34.545+09:00  INFO 14485 --- [smart-notes-backned] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T18:00:34.722+09:00  INFO 14485 --- [smart-notes-backned] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T18:00:34.853+09:00  INFO 14485 --- [smart-notes-backned] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T18:00:35.241+09:00  INFO 14485 --- [smart-notes-backned] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-27T18:00:35.375+09:00  WARN 14485 --- [smart-notes-backned] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T18:00:35.710+09:00  INFO 14485 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-27T18:00:35.716+09:00  INFO 14485 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Started SmartNotesBackendApplication in 4.076 seconds (process running for 4.461)
+2025-11-27T18:00:40.930+09:00  INFO 14485 --- [smart-notes-backned] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-27T18:00:40.932+09:00  INFO 14485 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-27T18:00:40.946+09:00  INFO 14485 --- [smart-notes-backned] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2025-11-27T18:00:41.185+09:00  INFO 14485 --- [smart-notes-backned] [http-nio-8080-exec-2] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-27T18:00:41.442+09:00  INFO 14485 --- [smart-notes-backned] [http-nio-8080-exec-3] c.u.s.controller.NotificationController  : Fetched notifications for user 'okilovnodir456@gmail.com'.
+2025-11-27T18:03:43.567+09:00  INFO 14485 --- [smart-notes-backned] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-27T18:03:43.572+09:00  INFO 14485 --- [smart-notes-backned] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-27T18:03:43.599+09:00  INFO 14485 --- [smart-notes-backned] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T18:03:43.614+09:00  INFO 14485 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-27T18:03:43.617+09:00  INFO 14485 --- [smart-notes-backned] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-27T18:03:45.837+09:00  INFO 14610 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Starting SmartNotesBackendApplication using Java 23.0.2 with PID 14610 (/Users/nodirjonokilov/Desktop/smart-notes-backned/target/classes started by nodirjonokilov in /Users/nodirjonokilov/Desktop/smart-notes-backned)
+2025-11-27T18:03:45.838+09:00  INFO 14610 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-27T18:03:46.264+09:00  INFO 14610 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-27T18:03:46.287+09:00  INFO 14610 --- [smart-notes-backned] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 6 JPA repository interfaces.
+2025-11-27T18:03:46.546+09:00  INFO 14610 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-27T18:03:46.552+09:00  INFO 14610 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-27T18:03:46.552+09:00  INFO 14610 --- [smart-notes-backned] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-27T18:03:46.568+09:00  INFO 14610 --- [smart-notes-backned] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-27T18:03:46.568+09:00  INFO 14610 --- [smart-notes-backned] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 705 ms
+2025-11-27T18:03:46.629+09:00  INFO 14610 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-27T18:03:46.673+09:00  INFO 14610 --- [smart-notes-backned] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@733f1395
+2025-11-27T18:03:46.673+09:00  INFO 14610 --- [smart-notes-backned] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-27T18:03:46.737+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.database                       : Set default schema name to smart_notes
+2025-11-27T18:03:46.960+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-27T18:03:46.992+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.ui                             : Database is up to date, no changesets to execute
+2025-11-27T18:03:46.993+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.changelog                      : Reading from smart_notes.databasechangelog
+2025-11-27T18:03:46.996+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : UPDATE SUMMARY
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : Run:                          0
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : Previously run:               3
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : Filtered out:                 0
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : -------------------------------
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : Total change sets:            3
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.util                           : Update summary generated
+2025-11-27T18:03:46.997+09:00  INFO 14610 --- [smart-notes-backned] [main] liquibase.command                        : Command execution complete
+2025-11-27T18:03:47.935+09:00  INFO 14610 --- [smart-notes-backned] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-27T18:03:47.962+09:00  INFO 14610 --- [smart-notes-backned] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-27T18:03:47.976+09:00  INFO 14610 --- [smart-notes-backned] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-27T18:03:48.079+09:00  INFO 14610 --- [smart-notes-backned] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-27T18:03:48.110+09:00  INFO 14610 --- [smart-notes-backned] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-27T18:03:48.471+09:00  INFO 14610 --- [smart-notes-backned] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-27T18:03:48.643+09:00  INFO 14610 --- [smart-notes-backned] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-27T18:03:48.766+09:00  INFO 14610 --- [smart-notes-backned] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-27T18:03:49.166+09:00  INFO 14610 --- [smart-notes-backned] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-27T18:03:49.297+09:00  WARN 14610 --- [smart-notes-backned] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-27T18:03:49.655+09:00  INFO 14610 --- [smart-notes-backned] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-27T18:03:49.661+09:00  INFO 14610 --- [smart-notes-backned] [main] c.u.s.SmartNotesBackendApplication       : Started SmartNotesBackendApplication in 4.033 seconds (process running for 4.382)
