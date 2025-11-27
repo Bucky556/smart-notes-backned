@@ -1,5 +1,5 @@
 ### Send Registration Code
-POST localhost:8080/auth/api/v1/register
+POST localhost:8080/api/v1/auth/register
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ### Verification Registration Code
-POST localhost:8080/auth/api/v1/register/email/verification
+POST localhost:8080/api/v1/auth/register/email/verification
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
 }
 
 ### Resend Verification Code
-POST localhost:8080/auth/api/v1/register/email/verification/resend
+POST localhost:8080/api/v1/auth/register/email/verification/resend
 Content-Type: application/json
 
 {
@@ -27,7 +27,7 @@ Content-Type: application/json
 }
 
 ### Login
-POST localhost:8080/auth/api/v1/login
+POST localhost:8080/api/v1/auth/login
 Content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json
 }
 
 ### Reset password
-POST localhost:8080/auth/api/v1/reset/password
+POST localhost:8080/api/v1/auth/reset/password
 Content-Type: application/json
 
 {
@@ -44,7 +44,7 @@ Content-Type: application/json
 }
 
 ### Reset password confirm
-POST localhost:8080/auth/api/v1/reset/password/confirm
+POST localhost:8080/api/v1/auth/reset/password/confirm
 Content-Type: application/json
 
 {
