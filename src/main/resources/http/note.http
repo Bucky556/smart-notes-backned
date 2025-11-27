@@ -1,5 +1,5 @@
 ### Create Note
-POST localhost:8080/note/api/v1/create
+POST localhost:8080/api/v1/note/create
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYzNTQwMjc4LCJleHAiOjE3NjM2MjY2Nzh9.HWRYBVc_yj_7xg2DLh2HZSGwo6S0Wtohs23en4ljZJ8
 
@@ -10,15 +10,15 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpb
 }
 
 ### Get Notes
-GET localhost:8080/note/api/v1/list
+GET localhost:8080/api/v1/note/list
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 
 ### Get note by ID
-GET localhost:8080/note/api/v1/by/id/4
+GET localhost:8080/api/v1/note/by/id/4
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 
 ### Update Note By ID
-PUT localhost:8080/note/api/v1/update/4
+PUT localhost:8080/api/v1/note/update/4
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 
@@ -29,15 +29,15 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpb
 }
 
 ### Delete Note By ID
-DELETE localhost:8080/note/api/v1/delete/27
+DELETE localhost:8080/api/v1/note/delete/27
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 
 ### Get Favourite Notes
-GET localhost:8080/note/api/v1/favourites
+GET localhost:8080/api/v1/note/favourites
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 
 ### Change Favorite Note
-PUT localhost:8080/note/api/v1/update/favorite/18
+PUT localhost:8080/api/v1/note/update/favorite/18
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 Content-Type: application/json
 
@@ -46,7 +46,7 @@ Content-Type: application/json
 }
 
 ### Filter Notes
-POST localhost:8080/note/api/v1/filter
+POST localhost:8080/api/v1/note/filter
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJva2lsb3Zub2RpcjQ1NkBnbWFpbC5jb20iLCJyb2xlcyI6IlJPTEVfVVNFUiIsImlkIjoiOTBjMTAwMWQtYzc4NS00Y2IzLWE0MGQtOTQ5YmY1ZDc5OGFiIiwiaWF0IjoxNzYxNTQyMzg5LCJleHAiOjE3NjE2Mjg3ODl9.bhd0T_CnZDYAykTU_FEOnhmS7TESxc_9OVNZlLOnbU4
 

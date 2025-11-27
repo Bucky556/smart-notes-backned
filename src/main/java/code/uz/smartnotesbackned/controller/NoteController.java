@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/note/api/v1")
+@RequestMapping("/api/v1/note")
 @RequiredArgsConstructor
 @Tag(
         name = "Note Controller",
