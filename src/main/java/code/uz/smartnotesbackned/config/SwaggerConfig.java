@@ -1,6 +1,5 @@
 package code.uz.smartnotesbackned.config;
 
-import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -15,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SwaggerConfig {
     @Bean
-    public OpenAPI bankCardOpenAPI() {
+    public OpenAPI smartNotesOpenAPI() {
         // Info
         Info info = new Info()
                 .title("Smart Notes Management API")
